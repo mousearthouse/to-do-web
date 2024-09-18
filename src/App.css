@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tasks_container {
+  height: wrap_content;
+}
+
+.task_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px; 
+  height: wrap_content;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #1d315e;
+  border-radius: 10px;
+  border-width: 2px;
+  text-align: center;
+  color: #1d315e;
+
+}
